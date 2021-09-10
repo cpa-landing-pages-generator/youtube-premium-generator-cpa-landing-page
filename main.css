@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.r400 { font-weight: 400 !important; }
+
+.r500 { font-weight: 500 !important; }
+
+h1, h2, h3, h4, h5, h6, p, input, .progressbar-text { font-family: 'Roboto', sans-serif !important; }
+
+.progressbar-text { font-weight: 400 !important; color: black !important; font-size: 1.05rem !important; }
+
+input, select { text-align: center !important; text-align-last: center !important; }
+
+.fs07 { font-size: 0.7rem !important; }
+.fs075 { font-size: 0.75rem !important; }
+.fs08 { font-size: 0.8rem !important; }
+.fs09 { font-size: 0.9rem !important; }
+.fs10 { font-size: 1rem !important; }
+.fs105 { font-size: 1.05rem !important; }
+.fs11 { font-size: 1.1rem !important; }
+.fs12 { font-size: 1.2rem !important; }
+.fs13 { font-size: 1.3rem !important; }
+
+.logo { margin-top: 10vh; }
+
+.t-top, .t-bot { height: 6.657vh; }
+
+.yt-top { top: 0; }
+
+.yt-bot { bottom: 0; }
+
+.yt-top, .yt-bot {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    width: 100%;
+    height: auto;
+    z-index: 1337;
+    position: fixed;
+}
+
+a { color: #1679c5 !important; }
+
+.ml-15 { margin-left: -15px !important; margin-right: -15px !important; }
+
+.YT-icon { padding: 0.75rem !important; }
+
+.w-80 { width: 80% !important; }
+
+.S2, .S3, .S4 { display: none; }
+
+.G { color: hsla(0,0%,6.7%,.6) !important; }
+
+.btn-primary { background-color: #0760d5 !important; border-radius: 3px !important; font-weight: 500 !important; }
+
+.btn-danger { background-color: #ff0000 !important; border-radius: 3px !important; font-weight: 500 !important; }
+
+hr {
+  border-top: 1px solid hsla(0,0%,53.3%,.4) !important;
+  color: hsla(0,0%,6.7%,.6) !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.MBMT { margin-top: 1rem !important; margin-bottom: 1rem !important; }
+
+/*MORE THAN SMALL = TOP/BOTTOM IMAGES HIDDEN*/
+
+@media (min-width: 576px) {
+
+  .t-top, .t-bot { display: none; }
+
+ }
+
+ @media (min-width: 768px) {
+
+   .w-80 { width: 50% !important; }
+
+     hr { display: none; }
+
+     .GRAYBG { background-color: #f9f9f9; }
+
+     .MBMT { margin-top: 1.25rem !important; margin-bottom: 1.25rem !important; }
+
+  }
+
+  @media (min-width: 992px) {
+
+    .MBMT { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+
+    .fs11 { font-size: 2rem !important; font-weight: 300 !important; }
+
+    .YEARS { font-size: 1.35rem !important; font-weight: 300 !important; }
+
+    .fs12 { font-size: 1.5rem !important; font-weight: 400 !important;}
+
+    .DE { font-size: 1.1rem !important; }
+
+    .YT-icon { padding-left: 2rem !important; padding-right: 2rem !important; padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
+    .fs13 { font-size: 1.8rem !important; }
+
+    .PL { font-size: 1.25rem !important; }
+
+    .fs075 { font-size: 1.05rem !important; }
+
+    .fs105 { font-size: 1.2rem !important; }
+
+    .btn { font-size: 1.1rem !important; }
+
+    .progressbar-text { font-weight: 400 !important; color: black !important; font-size: 1.45rem !important; padding-top: 1rem !important; padding-bottom: 1rem !important; padding-left: 2rem !important; padding-right: 2rem !important; }
+
+   }
